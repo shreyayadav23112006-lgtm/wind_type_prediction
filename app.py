@@ -34,11 +34,12 @@ if st.button("predict"):
                             density,
                             pH,
                             sulphates,
-                            alcohol
-                           ]])
+                            alcohol,
+                            quality
+                            ]])
     
     prediction = model.predict(input_data)[0]
-    
+
     if prediction == 1:
         st.success("white wine")
     else:
