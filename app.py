@@ -22,7 +22,7 @@ density = st.number_input("value of density")
 pH = st.number_input("value of pH")
 sulphates = st.number_input("value of sulphates")
 alcohol = st.number_input("value of alcohol")
-
+quality= st.number_input("value of quality")
 if st.button("predict"):
     input_data = np.array([[fixed_acidity,
                             volatile_acidity,
