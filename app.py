@@ -2,10 +2,10 @@
 """wine_type_d.ipynb"""
 
 import numpy as np
-import joblib as jb
+import joblib
 import streamlit as st
 
-model = jb.load('model.pkl')
+model = joblib.load('model.pkl')
 
 st.set_page_config(page_title="wine type prediction", layout="centered")
 st.title("wine type prediction App")
