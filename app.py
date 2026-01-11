@@ -5,7 +5,7 @@ import numpy as np
 import joblib
 import streamlit as st
 
-model = joblib.load('wine_type_prediction.pkl')
+model = joblib.load('model.pkl')
 
 st.set_page_config(page_title="wine type prediction", layout="centered")
 st.title("wine type prediction App")
