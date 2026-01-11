@@ -17,8 +17,8 @@ import streamlit as st
 
 model = joblib.load('wine_type_prediction.pkl')
 
-st.set_page_config(page_title="wine Type classification",layout="centered")
-st.title("wine Type  classification App")
+st.set_page_config(page_title="wine type prediction",layout="centered")
+st.title("wine type  prediction App")
 st.write("predict whether the wine is **Red** or **white** using chemical properties")
 
 
