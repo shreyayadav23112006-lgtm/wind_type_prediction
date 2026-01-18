@@ -4,8 +4,7 @@
 import numpy as np
 import pickle
 import streamlit as st
-with open("model.pkl", "rb") as f:
-    data = pickle.load(f)
+
 # model = joblib.load('model.pkl')
 
 st.set_page_config(page_title="wine type prediction", layout="centered")
